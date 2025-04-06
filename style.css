@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.subscribe-button { 
+    font-family: "Roboto", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 12px;
+
+    background-color: rgba(255, 255, 255, 0.984);
+    color: black;
+    border-radius: 20px;
+    border-width: 0;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    content: subscribe;
+    margin-left: 12px;
+}
+
+.subscribe-button:hover {
+    background-color: rgba(241, 237, 237, 0.919);
+}
+
+.subscribe-button:active {
+    background-color: rgb(168, 17, 17);
+    color: white;
+}
