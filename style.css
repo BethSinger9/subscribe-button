@@ -4,18 +4,21 @@ body{
 .subscribe-button { 
     font-family: "Roboto", Arial, sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 585;
     font-size: 12px;
 
-    background-color: rgba(255, 255, 255, 0.984);
+    background-color: rgba(241, 241, 241);
+    background-origin: padding-box;
+    background-size: auto;
+    margin: 0px;
     color: black;
     border-radius: 20px;
     border-width: 0;
-    height: 30px;
-    width: 80px;
+    height: 36px;
+    width: 94.5625px;
     cursor: pointer;
     content: subscribe;
-    margin-left: 12px;
+    text-size-adjust: 100%;
 }
 
 .subscribe-button:hover {
